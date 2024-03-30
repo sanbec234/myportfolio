@@ -17,12 +17,6 @@ const Interests: React.FC<{}> = () => {
           paddingLeft: "15rem" // This line corresponds to the padding-left property
         }}
       >
-        <div className="flex  flex-row justify-between pt-5">
-          <p className="text-gray-300 ">
-            <span className="font-semibold">Web App Development Intern </span>
-          </p>
-          <p className="text-gray-300">JUNE 2023 - JULY 2023, CHENNAI, INDIA</p>
-        </div>
         <p className="text-gray-300 pt-6 text-center">
         ▪ Keeping track of the technological advancements done by each company and writing suggestions
         and product reviews to the tech companies.
