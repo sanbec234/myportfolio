@@ -8,13 +8,13 @@ import Interests from "@/components/Interests";
 
 export default function Home() {
   return (
-    <main className="h-full w-full  bg-[url('/looper_image.jpeg')] bg-no-repeat">
+    <main className="h-full w-full  bg-[url('/looper_image.jpeg')] bg-no-repeat overflow-hidden">
       <div className="flex flex-col gap-20">
         <Banner />
-        <div className="flex justify-center w-full pl-[15rem]">
-            <About />
+        
+            {/* <About /> */}
             <Experience />
-        </div>
+
         <Interests />
         <Projects />
         <Footer />

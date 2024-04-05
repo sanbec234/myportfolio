@@ -4,7 +4,7 @@ import React from "react";
 
 const Projects: React.FC<{}> = () => {
   return (
-    <section id="projects">
+    <section id="projects" className="w-screen ">
       <h1 className="text-white font-semibold text-center text-6xl pt-[35px]">
         PROJECTS
       </h1>
@@ -45,7 +45,7 @@ const Projects: React.FC<{}> = () => {
             target="_blank"
             className="z-[1]"
           >
-            <div className="flex-row flex mb-5 ml-7">
+            <div className="flex-row flex mb-5">
               <Image
                 src="/WandereaseLogo.jpg"
                 height={150}
@@ -101,7 +101,7 @@ const Projects: React.FC<{}> = () => {
             target="_blank"
             className="z-[1]"
           >
-            <div className="flex-row flex mb-5 ml-7">
+            <div className="flex-row flex mb-5">
               <Image
                 src="/Pole-Logo.png"
                 height={150}
@@ -110,7 +110,7 @@ const Projects: React.FC<{}> = () => {
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl ">Polectors</p>
-                <p className="text-[12px] text-transparent bg-clip-text bg-gradient-to-r text-[12px] from-yellow-500 to-orange-400"
+                <p className="text-[12px] text-transparent bg-clip-text bg-gradient-to-r  from-yellow-500 to-orange-400"
                 style={(
                   {
                     width: "250px"

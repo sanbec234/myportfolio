@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const Banner: React.FC<{}> = () => {
   return (
-    <div className="flex flex-row items-center justify-center px-20 z-[20] mt-[150px]">
-      <div className="flex flex-row  justify-center  text-center gap-10">
+   
+      <div className="flex lg:flex-row flex-col justify-center  text-center gap-10 mt-36 px-5">
         <div className="justify-center flex">
           <Image
             priority
@@ -23,7 +23,7 @@ const Banner: React.FC<{}> = () => {
           <p className="text-2xl font-medium tracking-tighter  text-gray-300 max-w-[600px]">
             I love creative {" "}
             <span className="text-transparent font-semibold  bg-clip-text bg-gradient-to-r from-yellow-500 to-orange-400">
-              ideas,
+              ideas
             </span>{" "}
             Code &{" "}
             <span className="text-transparent font-semibold  bg-clip-text bg-gradient-to-r from-yellow-500 to-orange-400">
@@ -32,7 +32,7 @@ const Banner: React.FC<{}> = () => {
           </p>
           <p className="text-md text-gray-200 my-5 max-w-[600px]">
             A Junior Computer Science undergrad Student.
-            Passionate in Web, Mobile Application Development.. 
+            Passionate in Web, Mobile Application Development.
           </p>
           <div className="text-md flex justify-center">
             <button
@@ -44,7 +44,7 @@ const Banner: React.FC<{}> = () => {
           </div>
         </div>
       </div>
-    </div>
+
   );
 };
 
