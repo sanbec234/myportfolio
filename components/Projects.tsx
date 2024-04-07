@@ -11,8 +11,8 @@ const Projects: React.FC<{}> = () => {
       <p className=" tracking-[0.5em] text-center text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl ">
         EXPLORE NOW
       </p>
-      <div className=" container mx-auto 2xl  ">
-        <div className="flex-col flex md:flex-row  mt-7">
+      <div className=" flex flex-col container mx-auto 2xl">
+        <div className="flex-col flex md:flex-row  mt-7 lg:space-x-20">
           <Link
             href="https://sc.com/"
             rel="noopener noreferrer"
@@ -66,7 +66,7 @@ const Projects: React.FC<{}> = () => {
             </div>
           </Link>
         </div>
-        <div className="flex-col flex md:flex-row ">
+        <div className="flex-col flex md:flex-row lg:space-x-20">
           <Link
             href=""
             rel="noopener noreferrer"
