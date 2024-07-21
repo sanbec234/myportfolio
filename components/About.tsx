@@ -14,10 +14,9 @@ const About: React.FC<{}> = () => {
         </p>
         <p className="text-gray-300 pt-1 text-[19px]">A Junior Computer Science Student</p>
         <p className="text-gray-300 text-right pt-6 text-[19px]">
-        I am a third-year undergraduate student majoring in Computer Science seeking Summer Internships. I'm eager to gain experience and learn from professionals in the field during my time at the organization. I love working on real-time projects that are challenging.
-          <br />
-          <br />
-        I am passionate about creative ideas and thrive on finding innovative solutions. My strength lies in crafting unique and effective strategies that bring ideas to life. I have a knack for learning quickly, which fuels my love for developing new things and witnessing them evolve into tangible results. Turning concepts into reality is not just a job for me—it's a fulfilling journey that I eagerly embrace
+        Aspiring Computer Science graduate with a strong passion for innovating transformative technologies. Proficient in tackling real-time project challenges.
+        <br />  
+        <br />    
         </p>
       </div>
     </section>
